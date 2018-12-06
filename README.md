@@ -15,9 +15,9 @@ Use the setup script in the `include` directory to create your favorite desktop.
 
 * Vagrant (GUI,CUI)
 
-After `vagrant up`, Access the GUI desktop via VirtualBox. You can also create shortcuts in the bat file for Windows (vagrant up.bat, vagrant halt.bat).
+After `vagrant up`, Access the GUI desktop via VirtualBox. You can also create shortcuts in the bat file for Windows (`vagrant up.bat`, `vagrant halt.bat`).
 
-* Docker (CUI)
+* Docker (CUI only)
 
 Access the container through `docker exec -it -u vagrant -w /home/vagrant gandamu bash -l`. `make tty` can be substituted.
 
