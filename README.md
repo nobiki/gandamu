@@ -2,7 +2,7 @@
 
 Debian 9 Stretch - KDE Plasma Desktop (Vagrant)
 
-#### setup
+### setup
 
 Provision with `Vagrant` or `Docker`
 
@@ -11,7 +11,7 @@ Provision with `Vagrant` or `Docker`
 
 Use the setup script in the `include` directory to create your favorite desktop. Please refer to "setup.sh.example" for sample of shell provisioning.
 
-#### usage
+### usage
 
 * Vagrant (GUI,CUI)
 
@@ -21,7 +21,7 @@ After `vagrant up`, Access the GUI desktop via VirtualBox. You can also create s
 
 Access the container through `docker exec -it -u vagrant -w /home/vagrant gandamu bash -l`. `make tty` can be substituted.
 
-#### backup
+### backup
 
 * Vagrant
 
