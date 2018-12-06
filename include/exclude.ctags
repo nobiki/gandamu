@@ -1,0 +1,10 @@
+--exclude=node_modules
+--exclude=dist
+--exclude=.git
+--exclude=.session.vim
+--exclude=package.json
+--exclude=webpack.config.babel.js
+--exclude=webpack.config.js
+--exclude=postcss.config.js
+--exclude=yarn.lock
+--exclude=config.js

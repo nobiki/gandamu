@@ -1,0 +1,69 @@
+CURRENT=${PWD}
+TASK=""
+# export DEBIAN_FRONTEND=noninteractive
+
+# # workspace
+# sudo mkdir -p /var/containers/
+# sudo mkdir -p /var/virtualdomains/
+# sudo mkdir -p /var/workspace/
+# sudo chown 1000 /var/containers/
+# sudo chown 1000 /var/virtualdomains/
+# sudo chown 1000 /var/workspace/
+# ln -s /var/workspace/ ~/workspace
+
+. ./include/docker-ce.sh && cd ${CURRENT}
+. ./include/cron.sh && cd ${CURRENT}
+. ./include/dpkg.sh && cd ${CURRENT}
+. ./include/chrony.sh && cd ${CURRENT}
+. ./include/certbot.sh && cd ${CURRENT}
+. ./include/direnv.sh && cd ${CURRENT}
+. ./include/anyenv.sh && cd ${CURRENT}
+# . ./include/pyenv.sh && cd ${CURRENT}
+# . ./include/phpenv.sh && cd ${CURRENT}
+# . ./include/ndenv.sh && cd ${CURRENT}
+# . ./include/goenv.sh && cd ${CURRENT}
+# . ./include/rbenv.sh && cd ${CURRENT}
+. ./include/yarn.sh && cd ${CURRENT}
+. ./include/Ricty.sh && cd ${CURRENT}
+. ./include/sshrc.sh && cd ${CURRENT}
+. ./include/jq.sh && cd ${CURRENT}
+. ./include/hcat.sh && cd ${CURRENT}
+. ./include/hadolint.sh && cd ${CURRENT}
+. ./include/highway.sh && cd ${CURRENT}
+. ./include/sql-formatter.sh && cd ${CURRENT}
+. ./include/rsense.sh && cd ${CURRENT}
+. ./include/ctop.sh && cd ${CURRENT}
+. ./include/memo.sh && cd ${CURRENT}
+. ./include/ngrok.sh && cd ${CURRENT}
+. ./include/nginx.sh && cd ${CURRENT}
+. ./include/trans.sh && cd ${CURRENT}
+. ./include/xpanes.sh && cd ${CURRENT}
+. ./include/enhancd.sh && cd ${CURRENT}
+. ./include/azpainter.sh && cd ${CURRENT}
+. ./include/phpcs.sh && cd ${CURRENT}
+. ./include/js-beautify.sh && cd ${CURRENT}
+# . ./include/peco.sh && cd ${CURRENT}
+. ./include/unattended-upgrades.sh && cd ${CURRENT}
+. ./include/fzf.sh && cd ${CURRENT}
+. ./include/gcloud.sh && cd ${CURRENT}
+. ./include/vim.sh && cd ${CURRENT}
+
+echo '========================= Verify Install ========================='
+ls -l /usr/local/bin/sshrc
+ls -l /usr/local/bin/jq
+ls -l /usr/local/bin/hcat
+ls -l /usr/local/bin/hw
+ls -l /usr/local/bin/hadolint
+ls -l /usr/local/bin/sql-formatter
+ls -l ~/.fzf/bin/fzf
+# ls -l /usr/local/bin/peco
+ls -l /usr/local/bin/ctop
+# ls -l /usr/local/bin/memo
+ls -l /usr/local/bin/ngrok
+ls -l /usr/local/bin/trans
+ls -l /usr/local/bin/xpanes
+ls -l /usr/bin/azpainter
+echo '=============================== Task ============================='
+echo -e ${TASK}
+echo '=================================================================='
+
