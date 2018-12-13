@@ -46,6 +46,7 @@ apt install -y vim \
   bmon \
   yui-compressor \
   pandoc \
+  wkhtmltopdf \
   texlive \
   texlive-lang-cjk \
   texlive-luatex \
