@@ -45,7 +45,8 @@ TASK=""
 # . ./include/peco.sh && cd ${CURRENT}
 . ./include/unattended-upgrades.sh && cd ${CURRENT}
 . ./include/fzf.sh && cd ${CURRENT}
-. ./include/gcloud.sh && cd ${CURRENT}
+# . ./include/gcloud.sh && cd ${CURRENT}
+# . ./include/awscli.sh && cd ${CURRENT}
 . ./include/vim.sh && cd ${CURRENT}
 
 echo '========================= Verify Install ========================='
