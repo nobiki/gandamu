@@ -41,6 +41,7 @@ apt install -y vim \
   procps \
   siege \
   htop \
+  inotify-tools \
   inetutils-traceroute \
   iftop \
   bmon \
