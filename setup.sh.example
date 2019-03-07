@@ -29,6 +29,7 @@ TASK=""
 . ./include/git_find_big.sh && cd ${CURRENT}
 . ./include/jq.sh && cd ${CURRENT}
 . ./include/hcat.sh && cd ${CURRENT}
+. ./include/rim.sh && cd ${CURRENT}
 . ./include/hadolint.sh && cd ${CURRENT}
 . ./include/highway.sh && cd ${CURRENT}
 . ./include/sql-formatter.sh && cd ${CURRENT}
