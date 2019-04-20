@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "umask 022" >> ~/.profile
 
-. provision.sh
+sudo ./provision.sh
 
 sudo apt install -y gawk cgroupfs-mount
 
