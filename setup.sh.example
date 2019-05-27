@@ -32,6 +32,7 @@ TASK=""
 . ./include/rim.sh && cd ${CURRENT}
 . ./include/hadolint.sh && cd ${CURRENT}
 . ./include/highway.sh && cd ${CURRENT}
+. ./include/tbls.sh && cd ${CURRENT}
 . ./include/sql-formatter.sh && cd ${CURRENT}
 . ./include/rsense.sh && cd ${CURRENT}
 . ./include/ctop.sh && cd ${CURRENT}
@@ -59,6 +60,7 @@ ls -l /usr/local/bin/jq
 ls -l /usr/local/bin/hcat
 ls -l /usr/local/bin/hw
 ls -l /usr/local/bin/hadolint
+ls -l /usr/local/bin/tbls
 ls -l /usr/local/bin/sql-formatter
 ls -l ~/.fzf/bin/fzf
 # ls -l /usr/local/bin/peco
