@@ -1,4 +1,5 @@
-sudo apt install -y libxml2 libxml2-dev \
+sudo apt install -y g++ \
+  libxml2 libxml2-dev \
   libssl-dev pkg-config \
   zlib1g-dev \
   libbz2-dev \
@@ -7,6 +8,7 @@ sudo apt install -y libxml2 libxml2-dev \
   libreadline-dev \
   libtidy-dev \
   libcurl4-openssl-dev \
+  libmcrypt-dev \
   libxslt1.1 libxslt-dev
 
 anyenv install phpenv
