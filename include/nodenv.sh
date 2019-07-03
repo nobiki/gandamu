@@ -1,5 +1,5 @@
-anyenv install ndenv
+anyenv install nodenv
 
-TASK="${TASK}[ndenv]\n"
+TASK="${TASK}[nodenv]\n"
 TASK="${TASK}exec -l $SHELL\n"
 TASK="${TASK}\n"

@@ -20,7 +20,7 @@ TASK=""
 . ./include/anyenv.sh && cd ${CURRENT}
 # . ./include/pyenv.sh && cd ${CURRENT}
 # . ./include/phpenv.sh && cd ${CURRENT}
-# . ./include/ndenv.sh && cd ${CURRENT}
+# . ./include/nodenv.sh && cd ${CURRENT}
 # . ./include/goenv.sh && cd ${CURRENT}
 # . ./include/rbenv.sh && cd ${CURRENT}
 . ./include/yarn.sh && cd ${CURRENT}
