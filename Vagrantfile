@@ -12,13 +12,13 @@ end
 
 Vagrant.configure(2) do |config|
   config.vm.box = "nobiki/gandamu"
-  config.vm.box_version = "1.0"
+  config.vm.box_version = "2.0"
   # config.vm.box = "gandamu.box"
   config.vm.define "gandamu"
 
   # config.disksize.size = '200GB'
   # config.vbguest.auto_update = true
-  config.vm.network "private_network", ip: "192.168.56.100"
+  # config.vm.network "private_network", ip: "192.168.56.100"
   config.vm.provision :shell, path: "provision.sh", privileged: true
 
   config.vm.provider "virtualbox" do |vb|
