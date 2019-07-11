@@ -21,7 +21,6 @@ apt install -y vim \
   pigz \
   p7zip-full \
   pwgen \
-  mktemp \
   poppler-utils \
   recode \
   tree \
