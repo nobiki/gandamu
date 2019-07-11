@@ -16,8 +16,8 @@ Vagrant.configure(2) do |config|
   # config.vm.box = "gandamu.box"
   config.vm.define "gandamu"
 
-  # config.disksize.size = '200GB'
-  # config.vbguest.auto_update = true
+  config.disksize.size = '200GB'
+  config.vbguest.auto_update = true
   # config.vm.network "private_network", ip: "192.168.56.100"
   config.vm.provision :shell, path: "provision.sh", privileged: true
 
@@ -29,9 +29,9 @@ Vagrant.configure(2) do |config|
     vb.customize [
       "modifyvm", :id,
       "--vram", "256",
-      "--monitorcount", "2",
+      "--monitorcount", "1",
       "--clipboard", "bidirectional",
-      "--accelerate3d", 'off',
+      "--accelerate3d", 'on',
       "--hwvirtex", "on",
       "--nestedpaging", "on",
       "--largepages", "on",
