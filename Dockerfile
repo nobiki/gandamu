@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM debian:buster-slim
 MAINTAINER Naoaki Obiki
 ARG username="vagrant"
 ARG password="vagrant"
