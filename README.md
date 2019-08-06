@@ -1,6 +1,6 @@
 # gandamu
 
-Debian 9 Stretch - KDE Plasma Desktop (Vagrant)
+Debian 10 Buster - KDE Plasma Desktop (Vagrant)
 
 ### setup
 
