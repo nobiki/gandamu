@@ -1,2 +1,2 @@
-yarn global add eslint
+yarn global add eslint eslint-plugin-compat
 
