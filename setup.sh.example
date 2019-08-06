@@ -24,6 +24,7 @@ TASK=""
 # . ./include/goenv.sh && cd ${CURRENT}
 # . ./include/rbenv.sh && cd ${CURRENT}
 . ./include/yarn.sh && cd ${CURRENT}
+. ./include/eslint.sh && cd ${CURRENT}
 . ./include/Ricty.sh && cd ${CURRENT}
 . ./include/sshrc.sh && cd ${CURRENT}
 . ./include/git_find_big.sh && cd ${CURRENT}
