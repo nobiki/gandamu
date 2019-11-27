@@ -68,4 +68,4 @@ apt install -y vim \
   toilet \
   lolcat \
   fonts-noto-cjk \
-  ibus-mozc
+  fcitx-mozc
